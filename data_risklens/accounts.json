@@ -1,0 +1,207 @@
+[
+  {
+    "account_id": "ACC-001",
+    "company": "RiskLens Demo",
+    "tam": "Sam Park",
+    "plan_tier": "Pro",
+    "arr_usd": 120000,
+    "seats_licensed": 200,
+    "seats_active": 180,
+    "products": [
+      "AnalyticsHub",
+      "DataBridge Pro"
+    ],
+    "health_status": "Healthy",
+    "usage_trend": "Active",
+    "open_tickets": 1,
+    "p1_tickets_last_30d": 0,
+    "customer_since": "2024-03-01",
+    "renewal_date": "2026-06-01",
+    "primary_contact": {
+      "name": "Taylor Reed",
+      "title": "Director of IT",
+      "email": "treed@example.com"
+    },
+    "escalation_notes": [],
+    "nps_score": 78,
+    "last_login_days_ago": 2
+  },
+  {
+    "account_id": "ACC-002",
+    "company": "RiskLens Demo 2",
+    "tam": "Jordan Blake",
+    "plan_tier": "Enterprise",
+    "arr_usd": 450000,
+    "seats_licensed": 800,
+    "seats_active": 720,
+    "products": [
+      "AnalyticsHub",
+      "SecureVault",
+      "DataBridge Pro"
+    ],
+    "health_status": "At Risk",
+    "usage_trend": "Declining",
+    "open_tickets": 5,
+    "p1_tickets_last_30d": 2,
+    "customer_since": "2023-08-15",
+    "renewal_date": "2026-09-15",
+    "primary_contact": {
+      "name": "Casey Morgan",
+      "title": "VP Operations",
+      "email": "cmorgan@example.com"
+    },
+    "escalation_notes": [
+      "Usage drop 30% over past quarter"
+    ],
+    "nps_score": 42,
+    "last_login_days_ago": 12
+  },
+  {
+    "account_id": "ACC-3336",
+    "company": "Global Logistics Corp",
+    "tam": "Elena Vance",
+    "plan_tier": "Enterprise",
+    "arr_usd": 680000,
+    "seats_licensed": 1000,
+    "seats_active": 320,
+    "products": [
+      "DataBridge Pro",
+      "WorkflowEngine",
+      "CloudSync"
+    ],
+    "health_status": "At Risk",
+    "usage_trend": "Declining",
+    "open_tickets": 8,
+    "p1_tickets_last_30d": 3,
+    "customer_since": "2022-11-10",
+    "renewal_date": "2026-07-20",
+    "primary_contact": {
+      "name": "Marcus Sterling",
+      "title": "Chief Technology Officer",
+      "email": "msterling@example.com"
+    },
+    "escalation_notes": [
+      "Executive escalation received regarding recurring pipeline ingestion stalls and SLA penalties."
+    ],
+    "nps_score": 31,
+    "last_login_days_ago": 5,
+    "ticket_risk": true
+  },
+  {
+    "account_id": "ACC-4654",
+    "company": "Apex Financial Group",
+    "tam": "David Kim",
+    "plan_tier": "Enterprise",
+    "arr_usd": 520000,
+    "seats_licensed": 500,
+    "seats_active": 45,
+    "products": [
+      "AnalyticsHub",
+      "SecureVault"
+    ],
+    "health_status": "At Risk",
+    "usage_trend": "Inactive",
+    "open_tickets": 3,
+    "p1_tickets_last_30d": 1,
+    "customer_since": "2023-05-14",
+    "renewal_date": "2026-08-30",
+    "primary_contact": {
+      "name": "Rachel Zane",
+      "title": "Head of Risk Management",
+      "email": "rzane@example.com"
+    },
+    "escalation_notes": [
+      "Seat utilization dropped below 10%; team has paused active rollout."
+    ],
+    "nps_score": 28,
+    "last_login_days_ago": 34
+  },
+  {
+    "account_id": "ACC-3033",
+    "company": "DataFlow Systems",
+    "tam": "Samantha Hayes",
+    "plan_tier": "Enterprise",
+    "arr_usd": 750000,
+    "seats_licensed": 1200,
+    "seats_active": 1050,
+    "products": [
+      "DataBridge Pro",
+      "AnalyticsHub",
+      "WorkflowEngine"
+    ],
+    "health_status": "Under Watch",
+    "usage_trend": "Active",
+    "open_tickets": 11,
+    "p1_tickets_last_30d": 1,
+    "customer_since": "2022-04-18",
+    "renewal_date": "2026-11-01",
+    "primary_contact": {
+      "name": "Alex Chen",
+      "title": "VP Data Engineering",
+      "email": "achen@example.com"
+    },
+    "escalation_notes": [
+      "High open support volume causing engineering friction."
+    ],
+    "nps_score": 62,
+    "last_login_days_ago": 1
+  },
+  {
+    "account_id": "ACC-8113",
+    "company": "OmniCorp Global Holdings",
+    "tam": "Robert Langdon",
+    "plan_tier": "Enterprise Premier",
+    "arr_usd": 1250000,
+    "seats_licensed": 2500,
+    "seats_active": 2350,
+    "products": [
+      "AnalyticsHub",
+      "DataBridge Pro",
+      "SecureVault",
+      "CloudSync",
+      "WorkflowEngine"
+    ],
+    "health_status": "Healthy",
+    "usage_trend": "Active",
+    "open_tickets": 4,
+    "p1_tickets_last_30d": 0,
+    "customer_since": "2021-09-01",
+    "renewal_date": "2026-12-31",
+    "primary_contact": {
+      "name": "Eleanor Vance",
+      "title": "EVP Infrastructure",
+      "email": "evance@example.com"
+    },
+    "escalation_notes": [],
+    "nps_score": 88,
+    "last_login_days_ago": 1
+  },
+  {
+    "account_id": "ACC-5748",
+    "company": "Vanguard Healthcare Solutions",
+    "tam": "Priya Sharma",
+    "plan_tier": "Enterprise",
+    "arr_usd": 610000,
+    "seats_licensed": 900,
+    "seats_active": 810,
+    "products": [
+      "SecureVault",
+      "DataBridge Pro",
+      "CloudSync"
+    ],
+    "health_status": "Healthy",
+    "usage_trend": "Active",
+    "open_tickets": 2,
+    "p1_tickets_last_30d": 0,
+    "customer_since": "2023-01-20",
+    "renewal_date": "2026-10-15",
+    "primary_contact": {
+      "name": "Gregory House",
+      "title": "Chief Information Officer",
+      "email": "ghouse@example.com"
+    },
+    "escalation_notes": [],
+    "nps_score": 82,
+    "last_login_days_ago": 3
+  }
+]

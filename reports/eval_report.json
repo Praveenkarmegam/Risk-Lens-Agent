@@ -1,0 +1,206 @@
+{
+    "generated_at": "2026-10-02T16:13:02.714081+00:00",
+    "overall_status": "PASS",
+    "task_1_ticket_triage": {
+        "status": "PASS",
+        "total_cases": 6,
+        "passed_cases": 6,
+        "pass_rate": 100.0,
+        "results": [
+            {
+                "name": "Feature request with workaround",
+                "passed": true,
+                "checks": {
+                    "category": true,
+                    "priority": true,
+                    "reasoning": true,
+                    "recommended_team": true,
+                    "draft_response": true,
+                    "confidence": true,
+                    "clarification_schema": true
+                },
+                "predicted_category": "Feature Request",
+                "predicted_priority": "P4",
+                "confidence": "High",
+                "needs_clarification": false
+            },
+            {
+                "name": "SSO authentication failure",
+                "passed": true,
+                "checks": {
+                    "category": true,
+                    "priority": true,
+                    "reasoning": true,
+                    "recommended_team": true,
+                    "draft_response": true,
+                    "confidence": true,
+                    "clarification_schema": true
+                },
+                "predicted_category": "Authentication",
+                "predicted_priority": "P2",
+                "confidence": "Low",
+                "needs_clarification": true
+            },
+            {
+                "name": "General how-to question",
+                "passed": true,
+                "checks": {
+                    "category": true,
+                    "priority": true,
+                    "reasoning": true,
+                    "recommended_team": true,
+                    "draft_response": true,
+                    "confidence": true,
+                    "clarification_schema": true
+                },
+                "predicted_category": "How-to",
+                "predicted_priority": "P4",
+                "confidence": "High",
+                "needs_clarification": false
+            },
+            {
+                "name": "Potential production outage",
+                "passed": true,
+                "checks": {
+                    "category": true,
+                    "priority": true,
+                    "reasoning": true,
+                    "recommended_team": true,
+                    "draft_response": true,
+                    "confidence": true,
+                    "clarification_schema": true
+                },
+                "predicted_category": "Incident",
+                "predicted_priority": "P1",
+                "confidence": "High",
+                "needs_clarification": false
+            },
+            {
+                "name": "Performance issue",
+                "passed": true,
+                "checks": {
+                    "category": true,
+                    "priority": true,
+                    "reasoning": true,
+                    "recommended_team": true,
+                    "draft_response": true,
+                    "confidence": true,
+                    "clarification_schema": true
+                },
+                "predicted_category": "Performance",
+                "predicted_priority": "P3",
+                "confidence": "High",
+                "needs_clarification": false
+            },
+            {
+                "name": "Incomplete ticket",
+                "passed": true,
+                "checks": {
+                    "category": true,
+                    "priority": true,
+                    "reasoning": true,
+                    "recommended_team": true,
+                    "draft_response": true,
+                    "confidence": true,
+                    "clarification_schema": true
+                },
+                "predicted_category": "Other",
+                "predicted_priority": "P4",
+                "confidence": "Low",
+                "needs_clarification": true
+            }
+        ]
+    },
+    "task_2_account_health": {
+        "status": "PASS",
+        "total_cases": 6,
+        "passed_cases": 6,
+        "pass_rate": 100.0,
+        "average_quality_score": 1.0,
+        "results": [
+            {
+                "name": "At-risk account",
+                "passed": true,
+                "quality_score": 1.0,
+                "checks": {
+                    "account_found": true,
+                    "has_executive_summary": true,
+                    "has_risks": true,
+                    "has_talking_points": true,
+                    "at_risk_signal_detected": true
+                },
+                "details": {
+                    "account_id": "ACC-002"
+                }
+            },
+            {
+                "name": "Inactive usage account",
+                "passed": true,
+                "quality_score": 1.0,
+                "checks": {
+                    "account_found": true,
+                    "has_executive_summary": true,
+                    "has_risks": true,
+                    "has_talking_points": true,
+                    "usage_decline_detected": true
+                },
+                "details": {
+                    "account_id": "ACC-4654"
+                }
+            },
+            {
+                "name": "High open ticket volume",
+                "passed": true,
+                "quality_score": 1.0,
+                "checks": {
+                    "account_found": true,
+                    "has_executive_summary": true,
+                    "has_talking_points": true
+                },
+                "details": {
+                    "account_id": "ACC-3033"
+                }
+            },
+            {
+                "name": "High ARR account",
+                "passed": true,
+                "quality_score": 1.0,
+                "checks": {
+                    "account_found": true,
+                    "has_executive_summary": true,
+                    "has_talking_points": true,
+                    "account_identity_correct": true
+                },
+                "details": {
+                    "account_id": "ACC-8113"
+                }
+            },
+            {
+                "name": "Ticket-level dissatisfaction signal",
+                "passed": true,
+                "quality_score": 1.0,
+                "checks": {
+                    "account_found": true,
+                    "has_executive_summary": true,
+                    "has_talking_points": true,
+                    "has_ticket_risk": true,
+                    "evidence_quote_present": true
+                },
+                "details": {
+                    "account_id": "ACC-3336"
+                }
+            },
+            {
+                "name": "Missing account ID adversarial case",
+                "passed": true,
+                "quality_score": 1.0,
+                "checks": {
+                    "raises_clear_error": true
+                },
+                "details": {
+                    "error": "Account not found: ACC-DOES-NOT-EXIST"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,109 @@
+{
+    "total_cases": 6,
+    "passed_cases": 6,
+    "pass_rate": 100.0,
+    "results": [
+        {
+            "name": "Feature request with workaround",
+            "passed": true,
+            "checks": {
+                "category": true,
+                "priority": true,
+                "reasoning": true,
+                "recommended_team": true,
+                "draft_response": true,
+                "confidence": true,
+                "clarification_schema": true
+            },
+            "predicted_category": "Feature Request",
+            "predicted_priority": "P4",
+            "confidence": "High",
+            "needs_clarification": false
+        },
+        {
+            "name": "SSO authentication failure",
+            "passed": true,
+            "checks": {
+                "category": true,
+                "priority": true,
+                "reasoning": true,
+                "recommended_team": true,
+                "draft_response": true,
+                "confidence": true,
+                "clarification_schema": true
+            },
+            "predicted_category": "Authentication",
+            "predicted_priority": "P2",
+            "confidence": "Low",
+            "needs_clarification": true
+        },
+        {
+            "name": "General how-to question",
+            "passed": true,
+            "checks": {
+                "category": true,
+                "priority": true,
+                "reasoning": true,
+                "recommended_team": true,
+                "draft_response": true,
+                "confidence": true,
+                "clarification_schema": true
+            },
+            "predicted_category": "How-to",
+            "predicted_priority": "P4",
+            "confidence": "High",
+            "needs_clarification": false
+        },
+        {
+            "name": "Potential production outage",
+            "passed": true,
+            "checks": {
+                "category": true,
+                "priority": true,
+                "reasoning": true,
+                "recommended_team": true,
+                "draft_response": true,
+                "confidence": true,
+                "clarification_schema": true
+            },
+            "predicted_category": "Incident",
+            "predicted_priority": "P1",
+            "confidence": "High",
+            "needs_clarification": false
+        },
+        {
+            "name": "Performance issue",
+            "passed": true,
+            "checks": {
+                "category": true,
+                "priority": true,
+                "reasoning": true,
+                "recommended_team": true,
+                "draft_response": true,
+                "confidence": true,
+                "clarification_schema": true
+            },
+            "predicted_category": "Performance",
+            "predicted_priority": "P3",
+            "confidence": "High",
+            "needs_clarification": false
+        },
+        {
+            "name": "Incomplete ticket",
+            "passed": true,
+            "checks": {
+                "category": true,
+                "priority": true,
+                "reasoning": true,
+                "recommended_team": true,
+                "draft_response": true,
+                "confidence": true,
+                "clarification_schema": true
+            },
+            "predicted_category": "Other",
+            "predicted_priority": "P4",
+            "confidence": "Low",
+            "needs_clarification": true
+        }
+    ]
+}
